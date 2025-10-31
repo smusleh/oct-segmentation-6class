@@ -39,7 +39,7 @@ oct-segmentation-6class/
 
 1. Clone and enter:
 ```bash
-git clone <your-repo-url>.git
+git clone oct-segmentation-6class.git
 cd oct-segmentation-6class
 ```
 
@@ -66,7 +66,7 @@ data/
 jupyter notebook notebooks/OCT_Segmentation_6Class_Pipeline.ipynb
 ```
 
-## Tips
+## Notes
 - Keep image and mask filenames identical; ensure same spatial size.
 - Masks should be **single-channel** integer labels `[0..5]`.
 - Adjust class IDs or paths in `configs/config.yaml` if your dataset differs.
