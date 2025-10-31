@@ -8,17 +8,17 @@ It includes a ready folder structure, environment requirements, and your uploade
 ```
 oct-segmentation-6class/
 ├── notebooks/
-│   └── OCT_Segmentation_6Class_Pipeline.ipynb    # your segmentation pipeline
-├── src/                                          # reusable modules (optional)
+│   └── OCT_Segmentation_6Class_Pipeline.ipynb    # segmentation pipeline
+├── src/                                          
 ├── configs/
-│   └── config.yaml                               # class IDs & paths (no thickness entries)
+│   └── config.yaml                               # class IDs & paths 
 ├── data/
 │   ├── images/                                   # place OCT images here
 │   └── masks_6class/                             # place 6-class masks here (match filenames)
 ├── outputs/
 │   └── visualizations/                           # segmentation overlays / figures
 ├── .github/workflows/
-│   └── lint.yml                                  # optional CI
+│   └── lint.yml                                  
 ├── .gitignore
 ├── LICENSE
 ├── requirements.txt
